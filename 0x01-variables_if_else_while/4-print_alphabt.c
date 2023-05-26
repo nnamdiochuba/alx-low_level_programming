@@ -2,7 +2,7 @@
 
 /**
  * main - Entry Point
- * Description: This program prints out all the lower case alphabet except 
+ * Description: This program prints out all the lower case alphabet except
  * q and e
  * Return: 0 Always (Success)
  */
