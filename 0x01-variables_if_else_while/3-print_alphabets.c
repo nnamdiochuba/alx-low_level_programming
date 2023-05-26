@@ -18,7 +18,7 @@ int main(void)
 		putchar(c);
 	}
 
-	i = 65
+	i = 65;
 	while (i < 91)
         {
                 c = i++;
