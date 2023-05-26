@@ -20,7 +20,7 @@ int main(void)
 		while (j < 58 && l < 58)
 		{
 			j =l;
-			putchar(i);
+			putchar(i++);
 			putchar(j++);
 			if (i < 57 && j < 58)
 			{	
