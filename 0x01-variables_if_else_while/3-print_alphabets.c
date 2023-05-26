@@ -20,10 +20,10 @@ int main(void)
 
 	i = 65;
 	while (i < 91)
-        {
-                c = i++;
-                putchar(c);
-        }
+	{
+		c = i++;
+		putchar(c);
+	}
 
 	putchar('\n');
 	return (0);
