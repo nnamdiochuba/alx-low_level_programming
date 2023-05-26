@@ -14,7 +14,7 @@ int main(void)
 	while (i < 123)
 	{
 		c = i++;
-		if (c != 'e' || c != 'q')
+		if (i != 102 || i != 114)
 			putchar(c);
 	}
 	putchar('\n');
