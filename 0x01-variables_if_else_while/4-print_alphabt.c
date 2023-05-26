@@ -2,7 +2,8 @@
 
 /**
  * main - Entry Point
- * Description: This program prints out all the lower case alphabet except q and e
+ * Description: This program prints out all the lower case alphabet except 
+ * q and e
  * Return: 0 Always (Success)
  */
 
@@ -15,7 +16,9 @@ int main(void)
 	{
 		c = i++;
 		if (i != 102 || i != 114)
+		{
 			putchar(c);
+		}
 	}
 	putchar('\n');
 	return (0);
