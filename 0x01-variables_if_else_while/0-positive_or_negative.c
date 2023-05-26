@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 
 /**
@@ -18,8 +18,8 @@ int main(void)
 	if (n < 0)
 		printf("%d is positive", n);
 	else if (n = 0)
-		printf("%d is zero",n);
+		printf("%d is zero", n);
 	else
-		printf("%d is positive");
+		printf("%d is positive", n);
 	return (0);
 }
