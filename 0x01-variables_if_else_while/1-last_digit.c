@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  * Description: This code tells if is 0, greater than 5, or less than 6
- * 		and not 0
+ * and not 0
  * Return: 0 Always (Success)
  */
 int main(void)
