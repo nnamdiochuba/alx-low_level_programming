@@ -23,7 +23,7 @@ int main(void)
 			putchar(i);
 			putchar(j++);
 			if (!(i == 56 && j == 58))
-			{	
+			{
 				putchar(',');
 				putchar(' ');
 			}
@@ -31,5 +31,6 @@ int main(void)
 		k++;
 		l++;
 	}
+	putchar('\n');
 	return (0);
 }
