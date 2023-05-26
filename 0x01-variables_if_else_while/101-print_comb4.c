@@ -36,9 +36,12 @@ int main(void)
 					putchar(' ');
 				}
 			}
+			m++;
+			n++;
 		}
-		k++;
 		l++;
+		m = l + 1;
+		n = m + 1;
 	}
 	putchar('\n');
 	return (0);
