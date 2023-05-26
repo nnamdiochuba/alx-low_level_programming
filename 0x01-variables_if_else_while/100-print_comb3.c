@@ -17,12 +17,12 @@ int main(void)
 	while (i < 58 && k < 58)
 	{
 		i = k;
+		j = l;
 		while (j < 58 && l < 58)
 		{
-			j =l;
-			putchar(i++);
+			putchar(i);
 			putchar(j++);
-			if (i < 57 && j < 58)
+			if (i == 56 && j == 58)
 			{	
 				putchar(',');
 				putchar(' ');
