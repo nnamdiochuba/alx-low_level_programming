@@ -14,10 +14,10 @@ int main(void)
 	int k = i;
 	int l = j;
 
-	while (i < 58)
+	while (i < 58 && k < 58)
 	{
 		i = k;
-		while (j < 58)
+		while (j < 58 && l < 58)
 		{
 			j =l;
 			putchar(i);
