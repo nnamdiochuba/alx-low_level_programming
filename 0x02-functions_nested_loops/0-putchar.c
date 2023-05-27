@@ -1,7 +1,8 @@
 #include "main.h"
 
 /*
- * main - prints "_putchar" and a new line
+ * main - Entry point
+ * Description: Prints "_putchar"
  * Returns: 0 (Success)
  */
 
@@ -16,8 +17,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
-
 	
 	return (0);
 }
