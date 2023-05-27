@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * Prototype: int _isupper(char c);
  * Description: Tells if a character is uppercase or lowercase
