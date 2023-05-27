@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_alphabet: Prints lowercse alphabet
  * Description: Prints lowerase alphabet
@@ -9,9 +11,9 @@ void print_alphabet(void)
 	int i = 97;
 	while (i < 123)
 	{
-		putchar(i);
+		_putchar(i);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return;
 }
