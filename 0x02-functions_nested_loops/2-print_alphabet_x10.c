@@ -9,7 +9,9 @@
 void print_alphabet(void)
 {
 	int i;
-		for (int k = 0; k < 10; k++;)
+	int k;
+
+		for (k = 0; k < 10; k++)
 		{
 			i = 97;
 
