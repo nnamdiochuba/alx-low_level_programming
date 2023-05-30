@@ -5,17 +5,17 @@
  * Return: Always 0 (Success)
  */
 
-void jack_bauer()
+void jack_bauer(void)
 {
 	int H, h, M, m;
 
 	for (H = 0; H < 3; H++)
 	{
-		for (h = 0; h < 9; h++)
+		for (h = 0; h <= 9; h++)
 		{
 			for (M = 0; M < 6; M++)
 			{
-				for (m = 0; m < 9; m++)
+				for (m = 0; m <= 9; m++)
 				{
 					if (H == 2 && h > 3)
 						break;
