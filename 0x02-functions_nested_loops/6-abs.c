@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * int _abs - Finds the absolute value of an integer
+ * _abs - Finds the absolute value of an integer
  * Description: Takes an integer and returns the absolute value
- * @num - Integer number
+ * @num: Integer number
  * Return: Abslute value of input
  */
 
