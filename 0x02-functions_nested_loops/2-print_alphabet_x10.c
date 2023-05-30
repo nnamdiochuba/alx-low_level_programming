@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet- Prints lowercse alphabet 10 times
+ * print_alphabet_x10 - Prints lowercse alphabet 10 times
  * Description: Prints lowerase alphabet
  * Return: void
  */
@@ -20,6 +20,7 @@ void print_alphabet_x10(void)
 				_putchar(i);
 				i++;
 			}
+			_putchar('\n');
+
 		}
-	_putchar('\n');
 }
